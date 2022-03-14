@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>learn html | 骸骨长廊</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  
+  <meta name="keywords" content="html" />
+  
+  
+  
+  
+  <meta name="description" content="摘自 FreeCodeCamp,链接https:&#x2F;&#x2F;www.freecodecamp.org&#x2F;learn&#x2F;responsive-web-design&#x2F; 1&lt;h1-h6&gt; This element tells the browser about the structure of your website. h1 elements are often used for main headi">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Learn html">
+<meta property="og:url" content="https://vincent2311.github.io/2022/02/14/html/index.html">
+<meta property="og:site_name" content="骸骨长廊">
+<meta property="og:description" content="摘自 FreeCodeCamp,链接https:&#x2F;&#x2F;www.freecodecamp.org&#x2F;learn&#x2F;responsive-web-design&#x2F; 1&lt;h1-h6&gt; This element tells the browser about the structure of your website. h1 elements are often used for main headi">
+<meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2022-02-14T14:42:36.000Z">
+<meta property="article:modified_time" content="2022-03-03T14:12:00.931Z">
+<meta property="article:author" content="Vincent WANG">
+<meta property="article:tag" content="html">
+<meta name="twitter:card" content="summary">
+  
+    <link rel="alternate" href="/atom.xml" title="骸骨长廊" type="application/atom+xml">
+  
+
+  
+
+  <link rel="icon" href="/css/images/mylogo.jpg">
+  <link rel="apple-touch-icon" href="/css/images/mylogo.jpg">
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Montserrat:700" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic" rel="stylesheet" type="text/css">
+  <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+  <style type="text/css">
+    @font-face{font-family:futura-pt; src:url("/css/fonts/FuturaPTBold.otf") format("woff");font-weight:500;font-style:normal;}
+    @font-face{font-family:futura-pt-light; src:url("/css/fonts/FuturaPTBook.otf") format("woff");font-weight:lighter;font-style:normal;}
+    @font-face{font-family:futura-pt-italic; src:url("/css/fonts/FuturaPTBookOblique.otf") format("woff");font-weight:400;font-style:italic;}
+}
+
+  </style>
+  
+<link rel="stylesheet" href="/css/style.css">
+
+
+  
+<script src="/js/jquery-3.1.1.min.js"></script>
+
+  
+<script src="/js/bootstrap.js"></script>
+
+
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="/css/bootstrap.css" >
+
+  
+    
+<link rel="stylesheet" href="/css/dialog.css">
+
+  
+
+  
+
+  
+    <link rel="stylesheet" href="/css/header-post.css" >
+  
+
+  
+  
+  
+    <link rel="stylesheet" href="/css/vdonate.css" >
+  
+
+<meta name="generator" content="Hexo 5.4.0"></head>
+
+
+
+  <body data-spy="scroll" data-target="#toc" data-offset="50">
+
+
+  
+  <div id="container">
+    <div id="wrap">
+      
+        <header>
+
+    <div id="allheader" class="navbar navbar-default navbar-static-top" role="navigation">
+        <div class="navbar-inner">
+          
+          <div class="container"> 
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+
+            
+              <a class="brand" style="
+                 margin-top: 0px;"  
+                href="#" data-toggle="modal" data-target="#myModal" >
+                  <img width="124px" height="124px" alt="Hike News" src="/css/images/mylogo.jpg">
+              </a>
+            
+            
+            <div class="navbar-collapse collapse">
+              <ul class="hnav navbar-nav">
+                
+                  <li> <a class="main-nav-link" href="/">Home</a> </li>
+                
+                  <li> <a class="main-nav-link" href="/archives">Archives</a> </li>
+                
+                  <li> <a class="main-nav-link" href="/categories">Categories</a> </li>
+                
+                  <li> <a class="main-nav-link" href="/tags">Tags</a> </li>
+                
+                  <li> <a class="main-nav-link" href="/about">About</a> </li>
+                
+                  <li><div id="search-form-wrap">
+
+    <form class="search-form">
+        <input type="text" class="ins-search-input search-form-input" placeholder="" />
+        <button type="submit" class="search-form-submit"></button>
+    </form>
+    <div class="ins-search">
+    <div class="ins-search-mask"></div>
+    <div class="ins-search-container">
+        <div class="ins-input-wrapper">
+            <input type="text" class="ins-search-input" placeholder="Type something..." />
+            <span class="ins-close ins-selectable"><i class="fa fa-times-circle"></i></span>
+        </div>
+        <div class="ins-section-wrapper">
+            <div class="ins-section-container"></div>
+        </div>
+    </div>
+</div>
+<script>
+(function (window) {
+    var INSIGHT_CONFIG = {
+        TRANSLATION: {
+            POSTS: 'Posts',
+            PAGES: 'Pages',
+            CATEGORIES: 'Categories',
+            TAGS: 'Tags',
+            UNTITLED: '(Untitled)',
+        },
+        ROOT_URL: '/',
+        CONTENT_URL: '/content.json',
+    };
+    window.INSIGHT_CONFIG = INSIGHT_CONFIG;
+})(window);
+</script>
+
+<script src="/js/insight.js"></script>
+
+
+</div></li>
+            </div>
+          </div>
+                
+      </div>
+    </div>
+
+</header>
+
+
+
+      
+            
+      <div id="content" class="outer">
+        
+          <section id="main" style="float:none;"><article id="post-html" style="width: 75%; float:left;" class="article article-type-post" itemscope itemprop="blogPost" >
+  <div id="articleInner" class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="thumb" class="article-title" itemprop="name">
+      Learn html
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-meta">
+      
+	<a href="/2022/02/14/html/" class="article-date">
+	  <time datetime="2022-02-14T14:42:36.000Z" itemprop="datePublished">2022-02-14</time>
+	</a>
+
+      
+    <a class="article-category-link" href="/categories/Study/">Study</a>
+
+      
+	<a class="article-views">
+	<span id="busuanzi_container_page_pv">
+		PV:<span id="busuanzi_value_page_pv"></span>
+	</span>
+	</a>
+
+      
+
+    </div>
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>摘自 FreeCodeCamp,链接<a target="_blank" rel="noopener" href="https://www.freecodecamp.org/learn/responsive-web-design/">https://www.freecodecamp.org/learn/responsive-web-design/</a></p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">h1-h6</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<p>This element tells the browser about the structure of your website. h1 elements are often used for main headings, while h2 elements are generally used for subheadings. There are also h3, h4, h5 and h6 elements to indicate different levels of subheadings. </p>
+<h3 id="Paragraph"><a href="#Paragraph" class="headerlink" title="Paragraph"></a>Paragraph</h3><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">p</span>&gt;</span> </span><br></pre></td></tr></table></figure>
+
+
+<h3 id="Comment"><a href="#Comment" class="headerlink" title="Comment"></a>Comment</h3><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">&lt;!-- and end with a --&gt;</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="Main-block"><a href="#Main-block" class="headerlink" title="Main block"></a>Main block</h3><p>The main HTML5 tag helps search engines and other developers find the main content of your page.<br>Example usage, a main element with two child elements nested inside it:</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">main</span>&gt;</span></span><br><span class="line"></span><br><span class="line"> <span class="tag">&lt;<span class="name">h1</span>&gt;</span>Hello World<span class="tag">&lt;/<span class="name">h1</span>&gt;</span></span><br><span class="line"></span><br><span class="line"> <span class="tag">&lt;<span class="name">p</span>&gt;</span>Hello Paragraph<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;/<span class="name">main</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+
+
+<h3 id="Display-a-pic"><a href="#Display-a-pic" class="headerlink" title="Display a pic"></a>Display a pic</h3><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">img</span> <span class="attr">src</span>=<span class="string">&quot;https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg&quot;</span> <span class="attr">alt</span>=<span class="string">&quot;A cute orange cat lying on its back.&quot;</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<p>alt attribute is used when the pic failed to be displayed</p>
+<h3 id="Link-to-External-Pages-with-Anchor-Elements"><a href="#Link-to-External-Pages-with-Anchor-Elements" class="headerlink" title="Link to External Pages with Anchor Elements"></a>Link to External Pages with Anchor Elements</h3><p>You can use <code>a</code> (<em>anchor</em>) elements to link to content outside of your web page.</p>
+<p><code>a</code> elements need a destination web address called an <code>href</code> attribute. They also need anchor text. Here’s an example:</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">&quot;https://www.freecodecamp.org&quot;</span>&gt;</span>this links to freecodecamp.org<span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<p>Then your browser will display the text <code>this links to freecodecamp.org</code> as a link you can click. And that link will take you to the web address <code>https://www.freecodecamp.org</code>.</p>
+<h3 id="Link-to-Internal-Sections-of-a-Page-with-Anchor-Elements"><a href="#Link-to-Internal-Sections-of-a-Page-with-Anchor-Elements" class="headerlink" title="Link to Internal Sections of a Page with Anchor Elements"></a>Link to Internal Sections of a Page with Anchor Elements</h3><p><code>a</code> (<em>anchor</em>) elements can also be used to create internal links to jump to different sections within a webpage.</p>
+<p>To create an internal link, you assign a link’s <code>href</code> attribute to a hash symbol <code>#</code> plus the value of the <code>id</code> attribute for the element that you want to internally link to, usually further down the page. You then need to add the same <code>id</code> attribute to the element you are linking to. An <code>id</code> is an attribute that uniquely describes an element.</p>
+<p>Below is an example of an internal anchor link and its target element:</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">&quot;#contacts-header&quot;</span>&gt;</span>Contacts<span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br><span class="line">...</span><br><span class="line"><span class="tag">&lt;<span class="name">h2</span> <span class="attr">id</span>=<span class="string">&quot;contacts-header&quot;</span>&gt;</span>Contacts<span class="tag">&lt;/<span class="name">h2</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<p>When users click the <code>Contacts</code> link, they’ll be taken to the section of the webpage with the <strong>Contacts</strong> heading element.</p>
+<p><code>target=&quot;_blank&quot;</code> attribute: this causes the linked document to open in a new window tab.</p>
+<h3 id="Make-Dead-Links-Using-the-Hash-Symbol"><a href="#Make-Dead-Links-Using-the-Hash-Symbol" class="headerlink" title="Make Dead Links Using the Hash Symbol"></a>Make Dead Links Using the Hash Symbol</h3><p>Replace the href attribute value with a #, also known as a hash symbol, to create a dead link.<br>For example: href=”#”</p>
+<h3 id="Create-a-Bulleted-Unordered-List"><a href="#Create-a-Bulleted-Unordered-List" class="headerlink" title="Create a Bulleted Unordered List"></a>Create a Bulleted Unordered List</h3><p>Unordered lists start with an opening <code>&lt;ul&gt;</code> element, followed by any number of <code>&lt;li&gt;</code> elements. Finally, unordered lists close with a <code>&lt;/ul&gt;</code>.</p>
+<p>For example:</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">ul</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">li</span>&gt;</span>milk<span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">li</span>&gt;</span>cheese<span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">ul</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="Create-an-Ordered-List"><a href="#Create-an-Ordered-List" class="headerlink" title="Create an Ordered List"></a>Create an Ordered List</h3><p>Ordered lists start with an opening <code>&lt;ol&gt;</code> element, followed by any number of <code>&lt;li&gt;</code> elements. Finally, ordered lists are closed with the <code>&lt;/ol&gt;</code> tag.</p>
+<p>For example:</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">ol</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">li</span>&gt;</span>Garfield<span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">li</span>&gt;</span>Sylvester<span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">ol</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="Input-elements"><a href="#Input-elements" class="headerlink" title="Input elements"></a>Input elements</h3><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">&quot;text&quot;</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<p>Note that input elements are self-closing.</p>
+<p>Placeholder text is what is displayed in your input element before your user has inputted anything.</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">&quot;text&quot;</span> <span class="attr">placeholder</span>=<span class="string">&quot;this is placeholder text&quot;</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="Create-a-Form-Element"><a href="#Create-a-Form-Element" class="headerlink" title="Create a Form Element"></a>Create a Form Element</h3><p>You can build web forms that actually submit data to a server using nothing more than pure HTML. You can do this by specifying an action attribute on your form element.<br>For example:</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">form</span> <span class="attr">action</span>=<span class="string">&quot;url-where-you-want-to-submit-form-data&quot;</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">input</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">form</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="Submit-button"><a href="#Submit-button" class="headerlink" title="Submit button"></a>Submit button</h3><p>Let’s add a submit button to your form. Clicking this button will send the data from your form to the URL you specified with your form’s action attribute.<br>Here’s an example submit button:</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">button</span> <span class="attr">type</span>=<span class="string">&quot;submit&quot;</span>&gt;</span>Text for display<span class="tag">&lt;/<span class="name">button</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="Require-a-field-for-input"><a href="#Require-a-field-for-input" class="headerlink" title="Require a field for input"></a>Require a field for input</h3><p>You can require specific form fields so that your user will not be able to submit your form until he or she has filled them out.<br>you can just add the attribute required within your input element, like this: </p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">&quot;text&quot;</span> <span class="attr">required</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="Create-a-Set-of-Radio-Buttons"><a href="#Create-a-Set-of-Radio-Buttons" class="headerlink" title="Create a Set of Radio Buttons"></a>Create a Set of Radio Buttons</h3><p>You can use radio buttons for questions where you want the user to only give you one answer out of multiple options. Radio buttons are a type of <code>input</code>.</p>
+<p>Each of your radio buttons can be nested within its own <code>label</code> element. By wrapping an <code>input</code> element inside of a <code>label</code> element it will automatically associate the radio button input with the <code>label</code> element surrounding it.</p>
+<p>Proper use of labels with the elements above will benefit:</p>
+<ul>
+<li>Screen reader users (will read out loud the label, when the user is focused on the element)</li>
+<li>Users who have difficulty clicking on very small regions (such as checkboxes) - because when a user clicks the text within the <code>&lt;label&gt;</code> element, it toggles the input (this increases the hit area). </li>
+</ul>
+<p>All related radio buttons should have the same <code>name</code> attribute to create a radio button group. By creating a radio group, selecting any single radio button will automatically deselect the other buttons within the same group ensuring only one answer is provided by the user.</p>
+<p>Here’s an example of a radio button:</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">label</span>&gt;</span> </span><br><span class="line">  <span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">&quot;radio&quot;</span> <span class="attr">name</span>=<span class="string">&quot;indoor-outdoor&quot;</span>&gt;</span>Indoor </span><br><span class="line"><span class="tag">&lt;/<span class="name">label</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<p>It is considered best practice to set a <code>for</code> attribute on the <code>label</code> element, with a value that matches the value of the <code>id</code> attribute of the <code>input</code> element. This allows assistive technologies to create a linked relationship between the label and the related <code>input</code> element. For example:</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">input</span> <span class="attr">id</span>=<span class="string">&quot;indoor&quot;</span> <span class="attr">type</span>=<span class="string">&quot;radio&quot;</span> <span class="attr">name</span>=<span class="string">&quot;indoor-outdoor&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">label</span> <span class="attr">for</span>=<span class="string">&quot;indoor&quot;</span>&gt;</span>Indoor<span class="tag">&lt;/<span class="name">label</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<p>We can also nest the <code>input</code> element within the <code>label</code> tags:</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">label</span> <span class="attr">for</span>=<span class="string">&quot;indoor&quot;</span>&gt;</span> </span><br><span class="line">  <span class="tag">&lt;<span class="name">input</span> <span class="attr">id</span>=<span class="string">&quot;indoor&quot;</span> <span class="attr">type</span>=<span class="string">&quot;radio&quot;</span> <span class="attr">name</span>=<span class="string">&quot;indoor-outdoor&quot;</span>&gt;</span>Indoor </span><br><span class="line"><span class="tag">&lt;/<span class="name">label</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="Create-a-Set-of-Checkboxes"><a href="#Create-a-Set-of-Checkboxes" class="headerlink" title="Create a Set of Checkboxes"></a>Create a Set of Checkboxes</h3><p>Forms commonly use checkboxes for questions that may have more than one answer.Checkboxes are similar to radio bottons</p>
+<p>Checkboxes are a type of input.</p>
+<p>Each of your checkboxes can be nested within its own label element. By wrapping an input element inside of a label element it will automatically associate the checkbox input with the label element surrounding it.</p>
+<p>All related checkbox inputs should have the same name attribute.</p>
+<p>It is considered best practice to explicitly define the relationship between a checkbox input and its corresponding label by setting the for attribute on the label element to match the id attribute of the associated input element.</p>
+<p>Here’s an example of a checkbox:</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">label</span> <span class="attr">for</span>=<span class="string">&quot;loving&quot;</span>&gt;</span><span class="tag">&lt;<span class="name">input</span> <span class="attr">id</span>=<span class="string">&quot;loving&quot;</span> <span class="attr">type</span>=<span class="string">&quot;checkbox&quot;</span> <span class="attr">name</span>=<span class="string">&quot;personality&quot;</span>&gt;</span> Loving<span class="tag">&lt;/<span class="name">label</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="Use-the-value-attribute-with-Radio-Buttons-and-Checkboxes"><a href="#Use-the-value-attribute-with-Radio-Buttons-and-Checkboxes" class="headerlink" title="Use the value attribute with Radio Buttons and Checkboxes"></a>Use the value attribute with Radio Buttons and Checkboxes</h3><p>When a form gets submitted, the data is sent to the server and includes entries for the options selected. Inputs of type <code>radio</code> and <code>checkbox</code> report their values from the <code>value</code> attribute.</p>
+<p>For example:</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">label</span> <span class="attr">for</span>=<span class="string">&quot;indoor&quot;</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">input</span> <span class="attr">id</span>=<span class="string">&quot;indoor&quot;</span> <span class="attr">value</span>=<span class="string">&quot;indoor&quot;</span> <span class="attr">type</span>=<span class="string">&quot;radio&quot;</span> <span class="attr">name</span>=<span class="string">&quot;indoor-outdoor&quot;</span>&gt;</span>Indoor</span><br><span class="line"><span class="tag">&lt;/<span class="name">label</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">label</span> <span class="attr">for</span>=<span class="string">&quot;outdoor&quot;</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">input</span> <span class="attr">id</span>=<span class="string">&quot;outdoor&quot;</span> <span class="attr">value</span>=<span class="string">&quot;outdoor&quot;</span> <span class="attr">type</span>=<span class="string">&quot;radio&quot;</span> <span class="attr">name</span>=<span class="string">&quot;indoor-outdoor&quot;</span>&gt;</span>Outdoor</span><br><span class="line"><span class="tag">&lt;/<span class="name">label</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<p>Here, you have two <code>radio</code> inputs. When the user submits the form with the <code>indoor</code> option selected, the form data will include the line: <code>indoor-outdoor=indoor</code>. This is from the <code>name</code> and <code>value</code> attributes of the “indoor” input.</p>
+<p>If you omit the <code>value</code>attribute, the submitted form data uses the default value, which is <code>on</code>. In this scenario, if the user clicked the “indoor” option and submitted the form, the resulting form data would be <code>indoor-outdoor=on</code>, which is not useful. So the <code>value</code> attribute needs to be set to something to identify the option.</p>
+<h3 id="Check-Radio-Buttons-and-Checkboxes-by-Default"><a href="#Check-Radio-Buttons-and-Checkboxes-by-Default" class="headerlink" title="Check Radio Buttons and Checkboxes by Default"></a>Check Radio Buttons and Checkboxes by Default</h3><p>You can set a checkbox or radio button to be checked by default using the checked attribute.<br>To do this, just add the word checked to the inside of an input element.<br>For example:</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">&quot;radio&quot;</span> <span class="attr">name</span>=<span class="string">&quot;test-name&quot;</span> <span class="attr">checked</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="Nest-Many-Elements-within-a-Single-div-Element"><a href="#Nest-Many-Elements-within-a-Single-div-Element" class="headerlink" title="Nest Many Elements within a Single div Element"></a>Nest Many Elements within a Single div Element</h3><p>The <code>div</code> element, also known as a division element, is a general purpose container for other elements.</p>
+<p>The <code>div</code> element is probably the most commonly used HTML element of all.</p>
+<p>Just like any other non-self-closing element, you can open a <code>div</code> element with <code>&lt;div&gt;</code> and close it on another line with <code>&lt;/div&gt;</code>.</p>
+<h3 id="Declare-the-Doctype-of-an-HTML-Document"><a href="#Declare-the-Doctype-of-an-HTML-Document" class="headerlink" title="Declare the Doctype of an HTML Document"></a>Declare the Doctype of an HTML Document</h3><p>The challenges so far have covered specific HTML elements and their uses. However, there are a few elements that give overall structure to your page, and should be included in every HTML document.</p>
+<p>At the top of your document, you need to tell the browser which version of HTML your page is using. HTML is an evolving language, and is updated regularly. Most major browsers support the latest specification, which is HTML5. However, older web pages may use previous versions of the language.</p>
+<p>You tell the browser this information by adding the <code>&lt;!DOCTYPE ...&gt;</code> tag on the first line, where the <code>...</code> part is the version of HTML. For HTML5, you use <code>&lt;!DOCTYPE html&gt;</code>.</p>
+<p>The <code>!</code> and uppercase <code>DOCTYPE</code> is important, especially for older browsers. The <code>html</code> is not case sensitive.</p>
+<p>Next, the rest of your HTML code needs to be wrapped in <code>html</code> tags. The opening <code>&lt;html&gt;</code> goes directly below the <code>&lt;!DOCTYPE html&gt;</code> line, and the closing <code>&lt;/html&gt;</code> goes at the end of the page.</p>
+<p>Here’s an example of the page structure. Your HTML code would go in the space between the two html tags.</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;!DOCTYPE <span class="meta-keyword">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="Define-the-Head-and-Body-of-an-HTML-Document"><a href="#Define-the-Head-and-Body-of-an-HTML-Document" class="headerlink" title="Define the Head and Body of an HTML Document"></a>Define the Head and Body of an HTML Document</h3><p>You can add another level of organization in your HTML document within the <code>html</code> tags with the <code>head</code> and <code>body</code> elements. Any markup with information about your page would go into the <code>head</code> tag. Then any markup with the content of the page (what displays for a user) would go into the <code>body</code> tag.</p>
+<p>Metadata elements, such as <code>link</code>, <code>meta</code>, <code>title</code>, and <code>style</code>, typically go inside the <code>head</code> element.</p>
+<p>Here’s an example of a page’s layout:</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;!DOCTYPE <span class="meta-keyword">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">meta</span> /&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+      
+    </div>
+    <footer class="article-footer">
+      
+        <div id="donation_div"></div>
+
+
+<script src="/js/vdonate.js"></script>
+
+<script>
+var a = new Donate({
+  title: '微信上直接发我红包得了', // 可选参数，打赏标题
+  btnText: 'Donate', // 可选参数，打赏按钮文字
+  el: document.getElementById('donation_div'),
+  wechatImage: 'https://res.cloudinary.com/vincent23333/image/upload/v1642346040/pay-1_q1swa7.jpg',
+  alipayImage: 'https://res.cloudinary.com/vincent23333/image/upload/v1642346045/pay-2_zzeiwz.jpg'
+});
+</script>
+      
+      
+      <div>
+        <ul class="post-copyright">
+          <li class="post-copyright-author">
+          <strong>Post author:  </strong>Vincent WANG</a>
+          </li>
+          <li class="post-copyright-link">
+          <strong>Post link:  </strong>
+          <a href="/2022/02/14/html/" target="_blank" title="Learn html">https://vincent2311.github.io/2022/02/14/html/</a>
+          </li>
+          <li class="post-copyright-license">
+            <strong>Copyright Notice:   </strong>
+            All articles in this blog are licensed under <a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" title="Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)">CC BY-NC-ND 4.0</a>
+            unless stating additionally.
+          </li>
+         
+        </ul>
+<div>
+
+      
+      
+        
+	<div id="comment">
+		<!-- 来必力City版安装代码 -->
+		<div id="lv-container" data-id="city" data-uid="MTAyMC8yOTQ4MS82MDQ5">
+		<script type="text/javascript">
+		   (function(d, s) {
+		       var j, e = d.getElementsByTagName(s)[0];
+
+		       if (typeof LivereTower === 'function') { return; }
+
+		       j = d.createElement(s);
+		       j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+		       j.async = true;
+
+		       e.parentNode.insertBefore(j, e);
+		   })(document, 'script');
+		</script>
+		<noscript>为正常使用来必力评论功能请激活JavaScript</noscript>
+		</div>
+		<!-- City版安装代码已完成 -->
+	</div>
+
+
+
+      
+      
+        
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/html/" rel="tag">html</a></li></ul>
+
+      
+
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/2022/02/14/python/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          python 100天 (Day 6-15)
+        
+      </div>
+    </a>
+  
+  
+    <a href="/2022/02/02/Anes-interview/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">長編対談｜阿涅斯·瓦爾達：電影人的歡愉</div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+<!-- Table of Contents -->
+
+  <aside id="toc-sidebar">
+    <div id="toc" class="toc-article">
+    <strong class="toc-title">Contents</strong>
+    
+        <ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#Paragraph"><span class="nav-text">Paragraph</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Comment"><span class="nav-text">Comment</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Main-block"><span class="nav-text">Main block</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Display-a-pic"><span class="nav-text">Display a pic</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Link-to-External-Pages-with-Anchor-Elements"><span class="nav-text">Link to External Pages with Anchor Elements</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Link-to-Internal-Sections-of-a-Page-with-Anchor-Elements"><span class="nav-text">Link to Internal Sections of a Page with Anchor Elements</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Make-Dead-Links-Using-the-Hash-Symbol"><span class="nav-text">Make Dead Links Using the Hash Symbol</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Create-a-Bulleted-Unordered-List"><span class="nav-text">Create a Bulleted Unordered List</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Create-an-Ordered-List"><span class="nav-text">Create an Ordered List</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Input-elements"><span class="nav-text">Input elements</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Create-a-Form-Element"><span class="nav-text">Create a Form Element</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Submit-button"><span class="nav-text">Submit button</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Require-a-field-for-input"><span class="nav-text">Require a field for input</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Create-a-Set-of-Radio-Buttons"><span class="nav-text">Create a Set of Radio Buttons</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Create-a-Set-of-Checkboxes"><span class="nav-text">Create a Set of Checkboxes</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Use-the-value-attribute-with-Radio-Buttons-and-Checkboxes"><span class="nav-text">Use the value attribute with Radio Buttons and Checkboxes</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Check-Radio-Buttons-and-Checkboxes-by-Default"><span class="nav-text">Check Radio Buttons and Checkboxes by Default</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Nest-Many-Elements-within-a-Single-div-Element"><span class="nav-text">Nest Many Elements within a Single div Element</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Declare-the-Doctype-of-an-HTML-Document"><span class="nav-text">Declare the Doctype of an HTML Document</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Define-the-Head-and-Body-of-an-HTML-Document"><span class="nav-text">Define the Head and Body of an HTML Document</span></a></li></ol>
+    
+    </div>
+  </aside>
+
+</section>
+        
+      </div>
+      
+      <footer id="footer">
+  
+
+  <div class="container">
+      	<div class="row">
+	      <p> Powered by <a href="http://hexo.io/" target="_blank">Hexo</a> and <a href="https://github.com/iTimeTraveler/hexo-theme-hiker" target="_blank">Hexo-theme-hiker</a> </p>
+	      <p id="copyRightEn">Copyright &copy; 2013 - 2022 骸骨长廊 All Rights Reserved.</p>
+	      
+	      
+    		<p class="busuanzi_uv">
+				UV : <span id="busuanzi_value_site_uv"></span> |  
+				PV : <span id="busuanzi_value_site_pv"></span>
+		    </p>
+  		   
+		</div>
+
+		
+  </div>
+</footer>
+
+
+<!-- min height -->
+
+<script>
+    var wrapdiv = document.getElementById("wrap");
+    var contentdiv = document.getElementById("content");
+    var allheader = document.getElementById("allheader");
+
+    wrapdiv.style.minHeight = document.body.offsetHeight + "px";
+    if (allheader != null) {
+      contentdiv.style.minHeight = document.body.offsetHeight - allheader.offsetHeight - document.getElementById("footer").offsetHeight + "px";
+    } else {
+      contentdiv.style.minHeight = document.body.offsetHeight - document.getElementById("footer").offsetHeight + "px";
+    }
+</script>
+    </div>
+    <!-- <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+    <a href="/categories" class="mobile-nav-link">Categories</a>
+  
+    <a href="/tags" class="mobile-nav-link">Tags</a>
+  
+    <a href="/about" class="mobile-nav-link">About</a>
+  
+</nav> -->
+    
+
+<!-- mathjax config similar to math.stackexchange -->
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+      }
+    });
+</script>
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for(i=0; i < all.length; i += 1) {
+            all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+    });
+</script>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+
+  
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+
+  
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+
+
+<script src="/js/scripts.js"></script>
+
+
+
+
+
+  
+<script src="/js/dialog.js"></script>
+
+
+
+
+
+
+
+
+
+	<div style="display: none;">
+    <script src="https://s95.cnzz.com/z_stat.php?id=1260716016&web_id=1260716016" language="JavaScript"></script>
+  </div>
+
+
+
+	<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js">
+	</script>
+
+
+
+
+
+
+  </div>
+
+  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title" id="myModalLabel">设置</h2>
+      </div>
+      <hr style="margin-top:0px; margin-bottom:0px; width:80%; border-top: 3px solid #000;">
+      <hr style="margin-top:2px; margin-bottom:0px; width:80%; border-top: 1px solid #000;">
+
+
+      <div class="modal-body">
+          <div style="margin:6px;">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" onclick="javascript:setFontSize();" aria-expanded="true" aria-controls="collapseOne">
+              正文字号大小
+            </a>
+          </div>
+          <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+          <div class="panel-body">
+            您已调整页面字体大小
+          </div>
+        </div>
+      
+
+
+          <div style="margin:6px;">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" onclick="javascript:setBackground();" aria-expanded="true" aria-controls="collapseTwo">
+              夜间护眼模式
+            </a>
+        </div>
+          <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+          <div class="panel-body">
+            夜间模式已经开启，再次单击按钮即可关闭 
+          </div>
+        </div>
+
+        <div>
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="true" aria-controls="collapseThree">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;关 于&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+        </div>
+         <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+          <div class="panel-body">
+            骸骨长廊
+          </div>
+          <div class="panel-body">
+            Copyright © 2022 Vincent WANG All Rights Reserved.
+          </div>
+        </div>
+      </div>
+
+
+      <hr style="margin-top:0px; margin-bottom:0px; width:80%; border-top: 1px solid #000;">
+      <hr style="margin-top:2px; margin-bottom:0px; width:80%; border-top: 3px solid #000;">
+      <div class="modal-footer">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+      </div>
+    </div>
+  </div>
+</div>
+  
+  <a id="rocket" href="#top" class=""></a>
+  <script type="text/javascript" src="/js/totop.js?v=1.0.0" async=""></script>
+  
+    <a id="menu-switch"><i class="fa fa-bars fa-lg"></i></a>
+  
+</body>
+</html>
