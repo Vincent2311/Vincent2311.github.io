@@ -25,6 +25,14 @@ Education
 
 <br>
 
+Publication
+======
+C3LLM: Conditional Multimodal Content Generation Using Large Language Models
+
+Zixuan Wang*, Qinkai Duan*, Yu-Wing Tai, Chi-Keung Tang
+
+[arxiv preprint, 2024](https://arxiv.org/abs/2405.16136)
+
 Awards
 ======
 * **Y-LOT Foundation Scholarship** (2022)
