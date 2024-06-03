@@ -37,6 +37,7 @@ Publication
   <em>arXiv preprint</em> <br>
   <span class="links">
   <a href="https://arxiv.org/abs/2405.16136" target="_blank">[Paper]</a>
+  <a href="https://github.com/Vincent2311/C3LLM" target="_blank">[Github]</a>
   </span> </p>
   
 </div>
@@ -45,10 +46,13 @@ Publication
 
 Awards
 ======
-* **Y-LOT Foundation Scholarship** in `2022-2023`
-* **The BDR Scholarship - Academic Performance** in `2023-2024`
+* **Arts Scholarship** in `2024-2025`
 * **HKSAR Government Scholarship Fund - Reaching Out Award** in `2023`
-* **Arts Scholarship** in `2023-2024`
+* **The BDR Scholarship - Academic Performance** in `2023-2024`
+* **Y-LOT Foundation Scholarship** in `2022-2023`
+
+
+
 
 <br>
 
