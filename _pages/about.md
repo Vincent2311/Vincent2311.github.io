@@ -10,7 +10,7 @@ redirect_from:
 <br>
 Hi! I'm an undergraduate third year student in [BEng Computer Science](https://cse.hkust.edu.hk/ug/comp/), with minor in [Business](https://bmundergrad.hkust.edu.hk/academics/academic-programs/minor-programs) and [Math](https://www.math.hkust.edu.hk/ug/minor.php), at [The Hong Kong University of Science and Technology](https://hkust.edu.hk/).
 
-I'm currently working with [Prof. Yu-Wing Tai](https://yuwingtai.github.io/) and [Prof. Chi-Keung Tang](https://home.cse.ust.hk/~cktang/bio.html) for multimodal generation and large generative pre-trained models. Prior to that, I was very fortunate to work with [Prof. Shuiguang Deng](https://person.zju.edu.cn/en/shuiguang) and his PhD student Mr. Yin Wang on imbalanced semi-supervised learning, which led my way towards research.   
+I'm currently working with [Prof. Yu-Wing Tai](https://yuwingtai.github.io/) and [Prof. Chi-Keung Tang](https://home.cse.ust.hk/~cktang/bio.html) for auido generation and large generative pre-trained models. Prior to that, I was very fortunate to work with [Prof. Shuiguang Deng](https://person.zju.edu.cn/en/shuiguang) and his PhD student Mr. Yin Wang on imbalanced semi-supervised learning, which led my way towards research.   
 
 <br>
 
@@ -46,8 +46,8 @@ Publication
 
 Awards
 ======
-* **Arts Scholarship** in `2024-2025`
-* **HKSAR Government Scholarship Fund - Reaching Out Award** in `2023`
+* **Arts Scholarship** in `2023-2024`
+* **HKSAR Government Scholarship Fund - Reaching Out Award** in `2023-2024`
 * **The BDR Scholarship - Academic Performance** in `2023-2024`
 * **Y-LOT Foundation Scholarship** in `2022-2023`
 
