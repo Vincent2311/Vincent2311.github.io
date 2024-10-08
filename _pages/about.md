@@ -44,6 +44,19 @@ Publication
 
 <br>
 
+<div>
+  <p align="left"><strong>
+  Audio-Agent: Leveraging LLMs For Audio Generation, Editing and Composition</strong>
+  <br>
+  <b>Zixuan Wang</b>, Yu-Wing Tai, Chi-Keung Tang <br>
+  <em>arXiv preprint</em> <br>
+  <span class="links">
+  <a href="https://arxiv.org/abs/2410.03335" target="_blank">[Paper]</a>
+  <a href="https://github.com/Vincent2311/Audio-Agent" target="_blank">[Github]</a>
+  </span> </p>
+  
+</div>
+
 Awards
 ======
 * **Arts Scholarship** in `2023-2024`
