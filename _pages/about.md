@@ -71,5 +71,5 @@ Awards
 
 Service
 ======
-* **First clarinet of University Philharmonic Orchestra, HKUSTSU** in `2021-now`  
+* **First Clarinet of University Philharmonic Orchestra, HKUSTSU** in `2021-now`  
 * **Student Member of University Hall Selection Committee** in `2022-2023`
