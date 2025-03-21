@@ -29,6 +29,21 @@ Education
 
 Publication
 ======
+
+<div>
+  <p align="left"><strong>
+  SeMi: When Imbalanced Semi-Supervised Learning Meets Mining Hard Examples</strong>
+  <br>
+  Yin Wang, <b>Zixuan Wang</b>, Hao Lu, Zhen Qin, Hailiang Zhao, Guanjie Cheng, Ge Su, Li Kuang, Mengchu Zhou, Shuiguang Deng <br>
+  <em>arXiv preprint</em> <br>
+  <span class="links">
+  <a href="https://arxiv.org/abs/2501.06004" target="_blank">[Paper]</a>
+  </span> </p>
+  
+</div>
+
+<br>
+
 <div>
   <p align="left"><strong>
   C3LLM: Conditional Multimodal Content Generation Using Large Language Models</strong>
@@ -37,7 +52,6 @@ Publication
   <em>arXiv preprint</em> <br>
   <span class="links">
   <a href="https://arxiv.org/abs/2405.16136" target="_blank">[Paper]</a>
-  <a href="https://github.com/Vincent2311/C3LLM" target="_blank">[Github]</a>
   </span> </p>
   
 </div>
@@ -48,11 +62,24 @@ Publication
   <p align="left"><strong>
   Audio-Agent: Leveraging LLMs For Audio Generation, Editing and Composition</strong>
   <br>
-  <b>Zixuan Wang</b>, Yu-Wing Tai, Chi-Keung Tang <br>
+  <b>Zixuan Wang</b>, Chi-Keung Tang, Yu-Wing Tai <br>
   <em>arXiv preprint</em> <br>
   <span class="links">
   <a href="https://arxiv.org/abs/2410.03335" target="_blank">[Paper]</a>
-  <a href="https://github.com/Vincent2311/Audio-Agent" target="_blank">[Github]</a>
+  </span> </p>
+  
+</div>
+
+<br>
+
+<div>
+  <p align="left"><strong>
+  ReelWave: A Multi-Agent Framework Toward Professional Movie Sound Generation</strong>
+  <br>
+  <b>Zixuan Wang</b>, Chi-Keung Tang, Yu-Wing Tai<br>
+  <em>arXiv preprint</em> <br>
+  <span class="links">
+  <a href="https://arxiv.org/abs/2503.07217" target="_blank">[Paper]</a>
   </span> </p>
   
 </div>
