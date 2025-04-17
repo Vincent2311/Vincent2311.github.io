@@ -12,8 +12,8 @@ main:
   # - title: "Portfolio"
   #   url: /portfolio/
         
-  # - title: "Blog Posts"
-  # url: https://blogs-bco.pages.dev/
+  - title: "Blogpost"
+    url: https://github.com/academicpages/academicpages.github.io/issues/824
     
   # - title: "CV"
   #   url: /cv/
