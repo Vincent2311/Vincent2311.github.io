@@ -12,8 +12,8 @@ main:
   # - title: "Portfolio"
   #   url: /portfolio/
         
-  - title: "Blog Posts"
-  url: https://blogs-bco.pages.dev/
+  # - title: "Blog Posts"
+  # url: https://blogs-bco.pages.dev/
     
   # - title: "CV"
   #   url: /cv/
