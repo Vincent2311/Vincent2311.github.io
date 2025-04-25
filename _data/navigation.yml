@@ -9,8 +9,8 @@ main:
   # - title: "Teaching"
   #   url: /teaching/    
     
-  # - title: "Portfolio"
-  #   url: /portfolio/
+  - title: "Courses"
+    url: /courses/
         
   - title: "Blogs"
     url: https://blogs-bco.pages.dev
