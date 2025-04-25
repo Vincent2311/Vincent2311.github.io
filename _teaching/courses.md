@@ -123,4 +123,4 @@ Final Note:
 
 2. If you plan to persue a graduate study in Hong Kong, the grade at UG Year 4 Fall may still matter during application (especially if you want any scholarship). My bloody experience QwQ
 
-For students at HKUST: If you have any questions related to course selection or exchange, don't hesitate to contact me :smiley_cat:
+For students at HKUST: If you have any questions related to course selection or exchange, don't hesitate to contact me 😺
