@@ -121,4 +121,4 @@ MATH4335    3   Introduction to Optimization
 Final Note:
 1. Some professor doesn't offer UROP project. Instead, you can register a course called COMP 4971 Independent Work. Normally professor at CSE will give you decent grade if you work hard.
 
-2. If you plan to persue a graduate study in Hong Kong, the grade at UG Year 4 may still matter during application (especially if you want any scholarship). My bloody experience QwQ
+2. If you plan to persue a graduate study in Hong Kong, the grade at UG Year 4 Fall may still matter during application (especially if you want any scholarship). My bloody experience QwQ
