@@ -9,8 +9,11 @@ main:
   - title: "Courses"
     url: /teaching/    
         
-  - title: "Blogs"
+  - title: "Personal Blogs"
     url: https://blogs-bco.pages.dev
+
+  - title: "Paper List"
+    url: https://vincent2311.gitbook.io/vincents-paper-list/
     
   # - title: "CV"
   #   url: /cv/
