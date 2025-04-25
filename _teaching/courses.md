@@ -1,9 +1,9 @@
 ---
 layout: archive
 title: "Undergraduate Course Study Path"
-permalink: /course/
+permalink: /teaching/
 redirect_from:
-  - /course
+  - /teaching
 author_profile: true 
 classes: wide
 ---
