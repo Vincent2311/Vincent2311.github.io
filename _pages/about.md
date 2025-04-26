@@ -10,7 +10,7 @@ redirect_from:
 <br>
 Hi! I'm an undergraduate fourth-year student in [BEng Computer Science](https://cse.hkust.edu.hk/ug/comp/), with minor in [Business](https://bmundergrad.hkust.edu.hk/academics/academic-programs/minor-programs) and [Math](https://www.math.hkust.edu.hk/ug/minor.php), at [The Hong Kong University of Science and Technology](https://hkust.edu.hk/).
 
-I'm currently working with [Prof. Yu-Wing Tai](https://yuwingtai.github.io/) and [Prof. Chi-Keung Tang](https://home.cse.ust.hk/~cktang/bio.html) for text/video-guided audio generation. Prior to that, I was very fortunate to work with [Prof. Shuiguang Deng](https://person.zju.edu.cn/en/shuiguang) and his PhD student Mr. Yin Wang on imbalanced semi-supervised learning, which led my way towards research.   
+During my undergraduate study, I have worked with [Prof. Yu-Wing Tai](https://yuwingtai.github.io/) and [Prof. Chi-Keung Tang](https://home.cse.ust.hk/~cktang/bio.html) for text/video-guided audio generation. Prior to that, I was very fortunate to work with [Prof. Shuiguang Deng](https://person.zju.edu.cn/en/shuiguang) and his PhD student Mr. Yin Wang on imbalanced semi-supervised learning, which led my way towards research.   
 
 <br>
 
@@ -29,6 +29,34 @@ Education
 
 Publication
 ======
+
+<div>
+  <p align="left"><strong>
+  ReelWave: A Multi-Agent Framework Toward Professional Movie Sound Generation</strong>
+  <br>
+  <b>Zixuan Wang</b>, Chi-Keung Tang, Yu-Wing Tai<br>
+  <em>arXiv preprint</em> <br>
+  <span class="links">
+  <a href="https://arxiv.org/abs/2503.07217" target="_blank">[Paper]</a>
+  </span> </p>
+  
+</div>
+
+<br>
+
+<div>
+  <p align="left"><strong>
+  Audio-Agent: Leveraging LLMs For Audio Generation, Editing and Composition</strong>
+  <br>
+  <b>Zixuan Wang</b>, Chi-Keung Tang, Yu-Wing Tai <br>
+  <em>arXiv preprint</em> <br>
+  <span class="links">
+  <a href="https://arxiv.org/abs/2410.03335" target="_blank">[Paper]</a>
+  </span> </p>
+  
+</div>
+
+<br>
 
 <div>
   <p align="left"><strong>
@@ -56,33 +84,6 @@ Publication
   
 </div>
 
-<br>
-
-<div>
-  <p align="left"><strong>
-  Audio-Agent: Leveraging LLMs For Audio Generation, Editing and Composition</strong>
-  <br>
-  <b>Zixuan Wang</b>, Chi-Keung Tang, Yu-Wing Tai <br>
-  <em>arXiv preprint</em> <br>
-  <span class="links">
-  <a href="https://arxiv.org/abs/2410.03335" target="_blank">[Paper]</a>
-  </span> </p>
-  
-</div>
-
-<br>
-
-<div>
-  <p align="left"><strong>
-  ReelWave: A Multi-Agent Framework Toward Professional Movie Sound Generation</strong>
-  <br>
-  <b>Zixuan Wang</b>, Chi-Keung Tang, Yu-Wing Tai<br>
-  <em>arXiv preprint</em> <br>
-  <span class="links">
-  <a href="https://arxiv.org/abs/2503.07217" target="_blank">[Paper]</a>
-  </span> </p>
-  
-</div>
 
 Awards
 ======
