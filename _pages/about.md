@@ -101,3 +101,5 @@ Service
 ======
 * **First Clarinet of University Philharmonic Orchestra, HKUSTSU** in `2021-now`  
 * **Student Member of University Hall Selection Committee** in `2022-2023`
+
+<script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=NhoV10bXlRiroBYyBv9pAmH7Zl4ReRvZZdaR35wCjRY&cl=ffffff&w=a"></script>
