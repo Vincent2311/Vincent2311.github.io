@@ -30,7 +30,8 @@ Education
 Selected Publication
 ======
 
-I'm still training myself. For full publication, please see Google Scholar [here](https://scholar.google.com/citations?user=10O0bQQAAAAJ)
+I'm still training myself. Wait for me to complete this epoch :D
+For full publication, please see Google Scholar [here](https://scholar.google.com/citations?user=10O0bQQAAAAJ)
 
 
 
