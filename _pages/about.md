@@ -30,4 +30,6 @@ I'm still training myself. Wait for me to complete this epoch :D
 For the full list, please see Google Scholar [here](https://scholar.google.com/citations?user=10O0bQQAAAAJ)
 
 
-<script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=NhoV10bXlRiroBYyBv9pAmH7Zl4ReRvZZdaR35wCjRY&cl=ffffff&w=a"></script>
+<script type="text/javascript" id="clustrmaps" 
+src="https://clustrmaps.com/map_v2.js?d=NhoV10bXlRiroBYyBv9pAmH7Zl4ReRvZZdaR35wCjRY&cl=ffffff&w=a">
+</script>
