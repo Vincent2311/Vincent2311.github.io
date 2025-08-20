@@ -21,7 +21,7 @@ repository               : "Vincent2311/Vincent2311.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.jpeg"
+  avatar           : "profile.jpg"
   name             : "Zixuan Wang"
   pronouns         : #"he/him"  
   bio              : "BEng Computer Science student in HKUST"
