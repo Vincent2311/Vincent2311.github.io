@@ -18,11 +18,6 @@ Education
 - PhD in Computer Science and Engineering, *Sept. 2025 - present*
 - Bachelor of Engineering in Computer Science, *Sept. 2021 – Jun. 2025*
 
-**Hangzhou No.2 High School [(HZ2HS)](http://www.hz2hs.cn/)**
-- High School Diploma, *Sep. 2018 -- Jun. 2021*
-<br>
-<br>
-
 Selected Publication
 ======
 
