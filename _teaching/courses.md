@@ -123,4 +123,4 @@ Some Notes:
 
 2. If you plan to persue a graduate study in Hong Kong, the grade at UG Year 4 Fall may still matter during application (especially if you want any scholarship).
 
-If you want any suggestions on course selection or exchange, don't hesitate to contact me😺
+Don't hesitate to contact me if you want any suggestions on course selection or exchange 😺
